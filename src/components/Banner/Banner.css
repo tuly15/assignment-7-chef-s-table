@@ -1,0 +1,8 @@
+.bga {
+    border-radius: 24px;
+    background: linear-gradient(0deg, rgba(21, 11, 43, 0.90) 0%, rgba(21, 11, 43, 0.00) 100%), url(../../assets/banner.jpg) lightgray 0px -18.896px / 100% 123.31% no-repeat;
+    background-position: center top;
+}
+
+
+

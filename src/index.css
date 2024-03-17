@@ -1,0 +1,77 @@
+/* 
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"); 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+/* styles.css */
+/* .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 1320px;
+  min-height: 550px;
+  border-radius: 24px;
+}
+
+.buttonClass {
+  background-color: #0be58a;
+  border-radius: 50px;
+  width: 180px;
+  height: 64px;
+  color: black;
+}
+.cookbtnclass {
+  background-color: #0be58a;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 122px;
+  height: 50px;
+  color: black;
+}
+
+.feedBackClass {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 50px;
+  width: 180px;
+  height: 64px;
+  color: black;
+}
+
+.cover-image {
+  width: 330px;
+  height: 250px;
+}
+
+.food-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+} */ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+}
