@@ -24,7 +24,7 @@ const CookSection = ({ wTCooks, handlePreparing, cCooking }) => {
                             {
                                 wTCooks.map((wTCook, idx) => <tr key={idx}>
                                     <th>{idx + 1}</th>
-                                    <td>{wTCook.recipe_name}</td>
+                                    <td>{wTCook.title}</td>
                                     <td>{wTCook.preparing_time}</td>
                                     <td>{wTCook.calories}</td>
                                     <td><button onClick={() => handlePreparing(wTCook)} className='btn p-0 h-[38px] w-[115px] bg-[#0BE58A] rounded-[50px] font-semibold text-black'>Preparing</button></td>
@@ -58,7 +58,7 @@ const CookSection = ({ wTCooks, handlePreparing, cCooking }) => {
                                 cCooking.map((c, i) =>
                                     <tr key={i}>
                                         <th>{i + 1}</th>
-                                        <td>{c.recipe_name}</td>
+                                        <td>{c.title}</td>
                                         <td>{c.preparing_time}</td>
                                         <td>{c.calories}</td>
                                     </tr>)
