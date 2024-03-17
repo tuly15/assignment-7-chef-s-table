@@ -1,5 +1,5 @@
-import search from '../../assets/Frame.png';
-import profile from '../../assets/Frame (1).png';
+import search from '../../assets/Frame (1).png';
+import profile from '../../assets/Frame.png';
 // import PropTypes from 'prop-types';
 
 const Navbar = () => {

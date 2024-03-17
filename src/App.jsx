@@ -46,17 +46,17 @@
 // export default App;
 
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import Banner from './components/Banner/Banner'
+// import Navbar from './components/Navbar/Navbar'
+// import Banner from './components/Banner/Banner'
 import Header from './components/Header/Header'
 import OurRecipes from './components/OurRecipes/OurRecipes'
 function App() {
 
   return (   
     <div className='p-3 lg:p-0 max-w-[1320px] mx-auto lg:pt-[50px]'>
-     <Navbar></Navbar>
+     {/* <Navbar></Navbar>
 
-     <Banner></Banner>
+     <Banner></Banner> */}
      
       <Header></Header>
       

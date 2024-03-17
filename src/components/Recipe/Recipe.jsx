@@ -1,5 +1,5 @@
-// import clock from '../../assets/clock.svg';
-// import calorie from '../../assets/calories.svg';
+import clock from '../../assets/clock.svg';
+import calorie from '../../assets/calories.svg';
 
 import PropTypes from 'prop-types';
 
@@ -22,7 +22,8 @@ const Recipe = ({ recipe, handleWTCook}) => {
             </ul>
             <hr className='mt-4 mb-6 border-t-[1px] border-[rgba(40,40,40,0.10)] w-full' />
             <div className="flex gap-4 text-[rgba(40,40,40,0.80)]">
-                
+            <p className='flex gap-2 items-center'><img className='size-6 fira-sans' src={clock} alt="" />{preparing_time}</p>
+                <p className='flex gap-2 items-center'><img className='size-6 fira-sans' src={calorie} alt="" />{calories}</p>
             </div>
             <div className="flex  bottom-0">
                 <button onClick={()=>handleWTCook(recipe)} className='btn bg-[#0BE58A] w-[170px] h-[50px] rounded-[50px] text-lg font-medium mt-6'>Want to Cook</button>
