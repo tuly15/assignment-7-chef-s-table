@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-2xl lg:text-[32px] font-bold">Recipe Calories</a>
+                    <a className="btn btn-ghost text-2xl lg:text-[32px] font-bold">Chef's Table</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-[rgba(21,11,43,0.70)]">

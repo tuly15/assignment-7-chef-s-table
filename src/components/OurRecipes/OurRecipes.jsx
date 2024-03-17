@@ -32,7 +32,7 @@ const OurRecipes = () => {
     return (
         <div className="lg:mt-[100px] lg:mb-[100px]">
             <h3 className="text-[40px] font-medium text-center mb-6">Our Recipes</h3>
-            <p className="text-[rgba(21,11,43,0.60)] text-center mb-12 max-w-[823px] mx-auto">"Our Recipes" is a comprehensive culinary platform offering diverse, user-friendly recipes for every occasion, catering to various tastes, skill levels, and dietary preferences.</p>
+            <p className="text-[rgba(21,11,43,0.60)] text-center mb-12 max-w-[823px] mx-auto">This is a comprehensive culinary platform offering diverse, user-friendly recipes for every occasion, catering to various tastes, skill levels, and dietary preferences.</p>
             <div className="flex flex-col lg:flex-row gap-6">
 
                 <Recipes recipes={recipes} handleWTCook={handleWTCook}></Recipes>
