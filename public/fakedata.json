@@ -1,36 +1,36 @@
 [
   {
-    "cover": "https://i.ibb.co/sR3RrHT/stir-fry-chicken-sweet-peppers-green-beans.jpg",
+    "recipe_image": "https://www.eatwell101.com/wp-content/uploads/2021/02/baked-chicken-thighs-recipe-5.jpg",
     "id": "001",
-    "title": "Chicken Stir Fry",
-    "description": "A flavorful and healthy stir fry dish with tender chicken and fresh vegetables.",
+    "title": "Lemon Garlic Roasted Chicken",
+    "description": "A delightful blend of zesty lemon and savory garlic, perfectly roasted to juicy perfection.",
     "ingredients": [
-      "550 g chicken",
-      "120 ml soy sauce",
-      "200 g basil leaves",
-      "400 g mushroom"
+      "Whole chicken (about 1.5 kg)",
+      "Lemon (2 lemons)",
+      "Garlic cloves (6 cloves)",
+      "Olive oil (60 grams)"
     ],
     "preparing_time": "30 min",
-    "calories": "320 calories"
+    "calories": "400 calories"
   },
   {
-    "cover": "https://i.ibb.co/p3znJk7/italian-pasta-shells-with-mushrooms-zucchini-tomato-sauce.jpg",
+    "recipe_image": "https://i.ytimg.com/vi/-nfOuBU2ot0/maxresdefault.jpg",
     "id": "002",
-    "title": "Pasta Arrabbiata",
-    "description": "A spicy Italian pasta dish with tomatoes, garlic, and red chili flakes.",
+    "title": "Sizzling Beef Stir-Fry",
+    "description": "Tender strips of beef cooked with colorful vegetables in a flavorful stir-fry sauce.",
     "ingredients": [
-      "400 g pasta",
-      "500 g tomatoes",
-      "4 cloves garlic",
-      "2 tsp red chili flakes"
+      "Beef sirloin, thinly sliced (500 grams)",
+      "Bell peppers (red, green, and yellow) (300 grams)",
+      "Soy sauce (60 grams)",
+      "Ginger (20 grams)"
     ],
-    "preparing_time": "25 min",
-    "calories": "380 calories"
+    "preparing_time": "45 min",
+    "calories": "500 calories"
   },
   {
-    "cover": "https://i.ibb.co/pQv65x1/meat-stew-plate-with-potatoes-pepper-herbs-onion-pomegranate.jpg",
+    "recipe_image": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2015/09/coconut-chicken-curry-22-008.jpg",
     "id": "003",
-    "title": "Vegetable Curry",
+    "title": "Coconut Vegetable Curry",
     "description": "A fragrant and comforting curry filled with assorted vegetables.",
     "ingredients": [
       "300 g mixed vegetables",
@@ -42,45 +42,46 @@
     "calories": "280 calories"
   },
   {
-    "cover": "https://i.ibb.co/6mY8grB/fried-salmon-with-vegetables-table.jpg",
+    "recipe_image": "https://b3067249.smushcdn.com/3067249/wp-content/uploads/2016/10/spaghetti-carbonara-848x477.jpg?lossy=0&strip=1&webp=1",
     "id": "004",
-    "title": "Grilled Salmon",
-    "description": "Juicy and flavorful grilled salmon seasoned with herbs and lemon.",
+    "title": "Classic Spaghetti Carbonara",
+    "description": "Enjoy the timeless Italian dish of spaghetti tossed with crispy pancetta and creamy Parmesan sauce.",
     "ingredients": [
-      "4 salmon fillets",
-      "2 tbsp olive oil",
-      "1 lemon",
-      "2 tsp dried herbs"
+      "Spaghetti (400 grams)",
+      "Pancetta or bacon (150 grams)",
+      "Eggs (3 large eggs)",
+      "Parmesan cheese (100 grams)"
     ],
     "preparing_time": "20 min",
-    "calories": "300 calories"
+    "calories": "350 calories"
   },
   {
-    "cover": "https://i.ibb.co/S6XZBkr/preparing-strawberry-banana-smoothie-jar-wooden-table-blue-background.jpg",
+    "recipe_image": "https://img.taste.com.au/hVEqEJh-/w720-h480-cfill-q80/taste/2016/11/rich-chocolate-fudge-cake-81996-1.jpeg",
     "id": "005",
-    "title": "Mixed Fruit Smoothie",
-    "description": "A refreshing and nutritious smoothie packed with a variety of fruits.",
+    "title": "Decadent Chocolate Fudge Cake",
+    "description": "Indulge in rich chocolatey goodness with this moist and luscious fudge cake.",
     "ingredients": [
-      "1 banana",
-      "1 cup mixed berries",
-      "1/2 cup yogurt",
-      "1/4 cup orange juice"
+      "Flour (200 grams)",
+      "Cocoa powder (60 grams)",
+      "Butter (150 grams)",
+      "Sugar (200 grams)"
     ],
-    "preparing_time": "10 min",
-    "calories": "180 calories"
+    "preparing_time": "120 min",
+    "calories": "650 calories"
   },
   {
-    "cover": "https://i.ibb.co/0VFTx9r/top-view-tasty-hamburger.jpg",
+    "recipe_image": "https://www.somewhatsimple.com/wp-content/uploads/2022/08/banana-smoothie-breakfast.jpg",
     "id": "006",
-    "title": "Vegan Burger",
-    "description": "A tasty and satisfying plant-based burger made with wholesome ingredients.",
+    "title": "Banana Smoothie",
+    "description": "A creamy and nutritious smoothie made with bananas and yogurt.",
     "ingredients": [
-      "1 can chickpeas",
-      "1/2 cup breadcrumbs",
-      "1 tsp paprika",
-      "4 burger buns"
-    ],
-    "preparing_time": "35 min",
-    "calories": "250 calories"
+      "2 ripe bananas",
+      "1 cup yogurt",
+      "1/2 cup milk",
+      "1 tbsp honey"
+    ], 
+    
+    "preparing_time": "10 min",
+    "calories": "200 calories"
   }
 ]

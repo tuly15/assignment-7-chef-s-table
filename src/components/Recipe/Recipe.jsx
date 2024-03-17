@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 
 const Recipe = ({ recipe, handleWTCook}) => {
 
-    const { recipe_id, recipe_name, short_description, ingredients, preparing_time, calories, recipe_image } = recipe;
+    const { title, description, ingredients, preparing_time, calories, recipe_image } = recipe;
     return (
         <div className='p-6 flex flex-col justify-between rounded-2xl border-[1px] border-[rgba(40,40,40,0.20)]'>
             <div className='max-w-[330px] h-[200px] rounded-2xl bg-gray-300'>
                 <img className='w-full h-[200px] rounded-2xl' src={recipe_image} alt="" />
             </div>
-            <h3 className='mt-6 mb-4 text-2xl font-semibold'>{recipe_name}</h3>
-            <p className='text-[#878787] leading-[30px]  max-w-[330px] fira-sans'>{short_description}</p>
+            <h3 className='mt-6 mb-4 text-2xl font-semibold'>{title}</h3>
+            <p className='text-[#878787] leading-[30px]  max-w-[330px] fira-sans'>{description}</p>
             <hr className='mt-4 mb-6 border-t-[1px] border-[rgba(40,40,40,0.10)] w-full' />
             <h3 className='mb-4 text-lg'>Ingredients: {ingredients.length}</h3>
             <ul className='list-disc *:ml-6 text-[#878787] text-lg fira-sans'>
